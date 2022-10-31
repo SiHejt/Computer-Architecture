@@ -99,6 +99,7 @@ void mul(char* a, char* b) {
 }
 
 void div(char* a, char* b) {
+	//not working yet
 	int A[201] = { 0 }, B[201] = { 0 };
 	int sub_res[201] = { 0 };
 	int k;
@@ -139,7 +140,7 @@ void div(char* a, char* b) {
 int main() {
 	char A[201], B[201];
 	scanf("%s %s", A, B);
-	printf("¼ø¼­´ë·Î µ¡¼À, »¬¼À, °ö¼À, ³ª´°¼À\n");
+	printf("ìˆœì„œëŒ€ë¡œ ë§ì…ˆ, ëº„ì…ˆ, ê³±ì…ˆ, ë‚˜ëˆ—ì…ˆ\n");
 
 	add(A, B);
 
